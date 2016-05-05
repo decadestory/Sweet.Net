@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sweet.Net
+namespace Sweet.Net.Ext
 {
-    public class Class1
+    class DataTimeExt
     {
-
     }
 }

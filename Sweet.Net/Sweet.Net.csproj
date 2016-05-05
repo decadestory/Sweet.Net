@@ -43,12 +43,12 @@
   <ItemGroup>
     <Compile Include="API\DataResult.cs" />
     <Compile Include="API\PageResult.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Component\Email.cs" />
     <Compile Include="Component\Json.cs" />
     <Compile Include="Component\Lbs.cs" />
     <Compile Include="Component\Logger.cs" />
     <Compile Include="Ext\CollectionExt.cs" />
+    <Compile Include="Ext\DataTimeExt.cs" />
     <Compile Include="Ext\EnumExt.cs" />
     <Compile Include="Ext\MathExt.cs" />
     <Compile Include="Ext\RandomExt.cs" />
@@ -57,10 +57,12 @@
     <Compile Include="Security\Base64.cs" />
     <Compile Include="Security\DesEncrypt.cs" />
     <Compile Include="Security\Md5.cs" />
+    <Compile Include="Web\Cache.cs" />
+    <Compile Include="Web\Cookies.cs" />
+    <Compile Include="Web\IpHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Net\" />
-    <Folder Include="Web\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
