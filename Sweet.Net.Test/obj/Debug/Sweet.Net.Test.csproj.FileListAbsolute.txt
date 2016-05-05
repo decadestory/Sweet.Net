@@ -1,0 +1,7 @@
+D:\Projects\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.Test.dll
+D:\Projects\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.Test.pdb
+D:\Projects\GitHub\Sweet.Net\Sweet.Net.Test\obj\Debug\Sweet.Net.Test.csprojResolveAssemblyReference.cache
+D:\Projects\GitHub\Sweet.Net\Sweet.Net.Test\obj\Debug\Sweet.Net.Test.dll
+D:\Projects\GitHub\Sweet.Net\Sweet.Net.Test\obj\Debug\Sweet.Net.Test.pdb
+D:\Projects\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.dll
+D:\Projects\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.pdb
