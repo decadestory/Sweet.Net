@@ -44,11 +44,9 @@ namespace Sweet.Net.Web
         public static void ClearCookie(string cookiename)
         {
             var cookie = HttpContext.Current.Request.Cookies[cookiename];
-            if (cookie != null)
-            {
-                cookie.Expires = DateTime.Now.AddYears(-3);
-                HttpContext.Current.Response.Cookies.Add(cookie);
-            }
+            if (cookie == null) return;
+            cookie.Expires = DateTime.Now.AddYears(-3);
+            HttpContext.Current.Response.Cookies.Add(cookie);
         }
     }
 }

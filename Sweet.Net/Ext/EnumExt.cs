@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sweet.Net.API;
 
 namespace Sweet.Net.Ext
 {
@@ -26,11 +27,11 @@ namespace Sweet.Net.Ext
         /// </summary>
         /// <typeparam name="T">枚举类型</typeparam>
         /// <returns></returns>
-        public static List<object> EnumToList<T>(bool addAll = false)
+        public static List<KeyValue> EnumToList<T>(bool addAll = false)
         {
             var list = (from Enum type in Enum.GetValues(typeof(T))
-                        select new  { Id = type.GetHashCode(), Text = type.Description() }).ToList<object>();
-            if (addAll) list.Insert(0, new  { Id = 0, Text = "所有" });
+                        select new  KeyValue{ Key = type.GetHashCode().ToString(), Value = type.Description() }).ToList();
+            if (addAll) list.Insert(0, new KeyValue { Key = "0", Value = "所有" });
             return list;
         }
 
