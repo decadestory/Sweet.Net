@@ -3,3 +3,8 @@ D:\Projects\GitHub\Sweet.Net\Sweet.Net\bin\Debug\Sweet.Net.pdb
 D:\Projects\GitHub\Sweet.Net\Sweet.Net\obj\Debug\Sweet.Net.csprojResolveAssemblyReference.cache
 D:\Projects\GitHub\Sweet.Net\Sweet.Net\obj\Debug\Sweet.Net.dll
 D:\Projects\GitHub\Sweet.Net\Sweet.Net\obj\Debug\Sweet.Net.pdb
+E:\GitHub\Sweet.Net\Sweet.Net\bin\Debug\Sweet.Net.dll
+E:\GitHub\Sweet.Net\Sweet.Net\bin\Debug\Sweet.Net.pdb
+E:\GitHub\Sweet.Net\Sweet.Net\obj\Debug\Sweet.Net.csprojResolveAssemblyReference.cache
+E:\GitHub\Sweet.Net\Sweet.Net\obj\Debug\Sweet.Net.dll
+E:\GitHub\Sweet.Net\Sweet.Net\obj\Debug\Sweet.Net.pdb
