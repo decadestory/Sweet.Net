@@ -8,7 +8,7 @@ D:\Projects\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.pdb
 E:\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.Test.dll
 E:\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.Test.pdb
 E:\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.dll
-E:\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.pdb
 E:\GitHub\Sweet.Net\Sweet.Net.Test\obj\Debug\Sweet.Net.Test.csprojResolveAssemblyReference.cache
 E:\GitHub\Sweet.Net\Sweet.Net.Test\obj\Debug\Sweet.Net.Test.dll
 E:\GitHub\Sweet.Net\Sweet.Net.Test\obj\Debug\Sweet.Net.Test.pdb
+E:\GitHub\Sweet.Net\Sweet.Net.Test\bin\Debug\Sweet.Net.pdb

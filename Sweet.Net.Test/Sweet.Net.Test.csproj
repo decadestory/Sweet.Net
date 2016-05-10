@@ -58,6 +58,9 @@
     <Compile Include="UnitTest2.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Sweet.Net\Sweet.Net.csproj">
       <Project>{c657c7e5-552e-4a67-ab33-49d95f95f092}</Project>
       <Name>Sweet.Net</Name>

@@ -16,7 +16,7 @@ namespace Sweet.Net.Test
             for (int i = 0; i < 10000; i++)
                 list.Add(new People { Id = i, Name = "Jerry" + i, Age = 10 + i });
 
-            Excel.SaveToExcel<People>(list, "E:\\test.xls");
+            Excel.SaveToExcel<People>(list, "E:\\test.xlsx");
         }
 
         [TestMethod]

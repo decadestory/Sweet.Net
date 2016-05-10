@@ -38,8 +38,6 @@ namespace Sweet.Net.Component
             }
         }
 
-
-
         /// <summary>
         /// 导出Excel
         /// </summary>
@@ -66,7 +64,6 @@ namespace Sweet.Net.Component
                 Console.WriteLine(ex.Message);
             }
         }
-
 
         /// <summary>
         /// 从Excel中加载数据（泛型）

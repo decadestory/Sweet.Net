@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Sweet.Net.API;
+using Sweet.Net.Component;
 using Sweet.Net.Security;
 
 namespace Sweet.Net.Test
@@ -41,6 +42,14 @@ namespace Sweet.Net.Test
             var jie = RsaEncrypt.Decrypt("r1naGY+ZV4Hq6i7rQGlpiAO3UD2WNv1Vp+8dMcZB22CeKaA7wMzQayfd7YFlbcVBqRONuu6YO7MaI5If+JZjUGzKMPMyH8/Bx20jaEjgOJOTfukRNXnF+CK62jMOWJhbdc7Z82vz0zvbJbJqdThduBMl8CegGA/NXFfLuTlk+/c=");
             Component.Logger.Error(jie);
             Assert.IsFalse(false);
+        }
+
+        [TestMethod]
+        public void TestMethodLogger()
+        {
+            Logger.Error("helloError");
+            Logger.Info("helloInfo");
+            Logger.Warn("helloWarn");
         }
 
     }
