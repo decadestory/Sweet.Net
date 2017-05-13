@@ -55,18 +55,26 @@ namespace Sweet.Net.Component
 
         private static void SaveToFile(string content, int level)
         {
-            var path = GetFilePath(level);
-            var method = new StackTrace(true).GetFrame(2).GetMethod();
-            var declaringType = method.DeclaringType;
-            var nspace = declaringType != null ? declaringType.Namespace : string.Empty;
-            var md = "<" + nspace + "." + method.Name + "> ";
-            using (var sw = new StreamWriter(path, true))
+            try
             {
-                var time = "[" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss" + "]");
-                sw.WriteLine(time + md + content + "\r\n");
-                sw.Flush();
-            }
+                var path = GetFilePath(level);
+                var method = new StackTrace(true).GetFrame(2).GetMethod();
+                var declaringType = method.DeclaringType;
+                var nspace = declaringType != null ? declaringType.Namespace : string.Empty;
+                var md = "<" + nspace + "." + method.Name + "> ";
 
+                using (var fs = new FileStream(path, FileMode.Append, FileAccess.Write, FileShare.ReadWrite, 1024, false))
+                {
+                    var time = "[" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss" + "]");
+                    var bty = Encoding.UTF8.GetBytes(time + md + content + "\r\n");
+                    fs.Write(bty, 0, bty.Length);
+                    fs.Close();
+                }
+            }
+            catch
+            {
+
+            }
         }
 
         private static string GetFilePath(int level)
